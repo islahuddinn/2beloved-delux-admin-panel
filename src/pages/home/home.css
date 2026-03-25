@@ -1,0 +1,156 @@
+.services-background-image img {
+  width: 8rem;
+  height: 8rem;
+}
+.service-background-option img {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+.admin-products-main-container {
+  background-color: #fff;
+  padding: 0 2.4rem;
+}
+
+.dashboard-main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.dashboard-state-container {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.dashboard-pie-chart-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: -6px -5px 17px -1px rgba(166, 164, 164, 0.75);
+  border-radius: 13px;
+  height: 22rem;
+  padding-top: 3rem;
+}
+
+.dashboard-pie-chart-container p {
+  margin-top: 1rem;
+}
+.dashboard-state-count-container {
+  width: 48%;
+  height: 10rem;
+  background: rgb(247, 246, 246);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding: 3rem;
+  box-shadow: -6px -5px 17px -1px rgba(166, 164, 164, 0.75);
+  margin-bottom: 2rem;
+}
+
+.dashboard-state-icon img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.dashboard-state {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-state h2 {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  color: #4e4b66;
+}
+.dashboard-state p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--theme-color);
+}
+
+.icon-dashboard {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1.2rem;
+  /* margin-top: -0.2rem; */
+}
+
+.bread-crumb {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.server-roles-add-btn {
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: var(--theme-color);
+  cursor: pointer;
+}
+
+.server-roles-add-btn img {
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-right: 1rem;
+}
+.server-roles-add-btn p {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.configure-server-roles-main-heading-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.7rem;
+}
+.configure-server-roles-main-heading-container h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 24px;
+  color: #06141c;
+}
+
+.server-roles-tb-main-container {
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0px 0px 8px 1px rgba(9, 161, 218, 0.1);
+  margin-top: 1.5rem;
+}
+
+.ant-table-wrapper .ant-table-thead > tr > th {
+  background-color: rgb(12, 53, 92);
+  color: white;
+}
+
+.configure-server-home-icon img {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.5rem;
+  margin-top: -0.2rem;
+}
+
+.admin-products-main-container {
+  background-color: #fff;
+  padding: 0 2.4rem;
+}
